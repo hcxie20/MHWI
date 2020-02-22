@@ -16,5 +16,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func ArmorButtonPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToArmorsView", sender: self)
+    }
 }
 
